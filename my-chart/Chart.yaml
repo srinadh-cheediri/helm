@@ -1,0 +1,6 @@
+apiVersion: v2
+name: test-chart
+version: 1.0.0
+appVersion: 1.0.0
+type: application
+description: test helm chart for the microservices

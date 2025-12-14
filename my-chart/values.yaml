@@ -1,0 +1,8 @@
+appname: test-app
+replicas: 2
+labelname: test
+image: nginx 
+imagename: nginx
+appport: 80
+
+
