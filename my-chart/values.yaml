@@ -1,5 +1,5 @@
 appname: test-app
-replicas: 2
+replicas: 1
 labelname: test
 image: nginx 
 imagename: nginx
