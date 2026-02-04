@@ -6,14 +6,14 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - http: null
-      paths:
-        - path: /
-          pathType: Prefix
-          backend:
-            service:
-              name: {{.Values.appname}}-service
-              port:
-                number: 80
+    - http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: {{.Values.appname}}-service
+                port:
+                  number: 80
 {{- end }}
   
