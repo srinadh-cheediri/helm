@@ -15,5 +15,12 @@ spec:
                 name: {{.Values.appname}}-service
                 port:
                   number: 80
+          - path: /plain
+            pathType: Prefix
+            backend:
+              service:
+                name: nginx-p
+                port:
+                  number: 80
 {{- end }}
   
