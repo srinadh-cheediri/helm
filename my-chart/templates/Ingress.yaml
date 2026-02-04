@@ -4,6 +4,7 @@ kind: Ingress
 metadata:
   name: {{.Values.appname}}-ingress
 spec:
+  ingressClassName: traefik
   rules:
     - http:
       paths:
