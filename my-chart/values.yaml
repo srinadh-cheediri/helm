@@ -4,5 +4,7 @@ labelname: test
 image: nginx 
 imagename: nginx
 appport: 80
+ingress:
+  enabled: true
 
 
