@@ -1,10 +1,19 @@
-appname: test-app
-replicas: 1
-labelname: test
-image: srinadhdkr/nginx:orange 
-imagename: nginx
-appport: 80
-ingress:
-  enabled: true
-
+my-app1:
+  appname: test-app
+  replicas: 1
+  labelname: test
+  image: srinadhdkr/nginx:orange 
+  imagename: nginx
+  appport: 80
+  ingress:
+    enabled: true
+my-app2:
+  appname: test-app
+  replicas: 1
+  labelname: test
+  image: srinadhdkr/nginx:blue 
+  imagename: nginx
+  appport: 80
+  ingress:
+    enabled: true
 
