@@ -1,7 +1,7 @@
 my-app1:
   appname: test-app1
   replicas: 1
-  labelname: test
+  labelname: test1
   image: srinadhdkr/nginx:green 
   imagename: nginx
   appport: 80
@@ -10,7 +10,7 @@ my-app1:
 my-app2:
   appname: test-app2
   replicas: 1
-  labelname: test
+  labelname: test2
   image: srinadhdkr/nginx:blue 
   imagename: nginx
   appport: 80
