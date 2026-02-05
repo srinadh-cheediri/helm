@@ -5,6 +5,6 @@ image: srinadhdkr/nginx:orange
 imagename: nginx
 appport: 80
 ingress:
-  enabled: true
+  enabled: false
 
 
