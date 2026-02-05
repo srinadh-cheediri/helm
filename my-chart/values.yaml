@@ -2,7 +2,7 @@ my-app1:
   appname: test-app1
   replicas: 1
   labelname: test1
-  image: srinadhdkr/nginx:orange 
+  image: srinadhdkr/nginx:green 
   imagename: nginx
   appport: 80
   ingress:
