@@ -1,6 +1,15 @@
 apiVersion: v2
-name: test-chart
-version: 1.0.0
-appVersion: 1.0.0
+name: my-chart
+description: Umbrella chart for my applications
 type: application
-description: test helm chart for the microservices
+version: 0.1.0
+appVersion: "1.0"
+
+dependencies:
+  - name: my-app1
+    version: 1.0.0
+    repository: "file://charts/my-app1"
+
+  - name: my-app2
+    version: 1.0.0
+    repository: "file://charts/my-app2"
